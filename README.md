@@ -58,11 +58,12 @@ pip install numpy
 ## Methodology 
 
 2. ***Data Preparation***  
-* Synthetic data generation to correct extreme imbalances between the minority class (n=5) and majority class (n=2836).  
-*
+* Created a dataframe with image path list and classes as labels  
+* Split the dataset into training and test sets
+* Used a label encoder to to convert the labels to numbers
 
 3. ***Model Selection***
-* Hyper-parameter tuning 
+* Convolutional neural network (CNN) due to its ability to recognize patterns in images
 
 
 4. ***Model Validation***
@@ -70,7 +71,9 @@ pip install numpy
 *
 
 5.  ***Model Interpretation***
-* Feature Importance comparison and analysis  
+* Feature Importance comparison and analysis
+* <img width="624" alt="image" src="https://github.com/user-attachments/assets/c16b5e96-6458-4b3a-b4eb-870a11c37a72">
+
 
 ## Results
 
