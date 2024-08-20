@@ -1,10 +1,10 @@
-# The MonkeyPox Epidemic presented by the:
+# The MPox Epidemic presented by the:
 ![image](https://github.com/user-attachments/assets/ce382959-92b4-4fa9-a641-f2fda0a4916a)
 
 
 ## Overview
 
-The Wine Quality Predictor is a machine learning project aimed at predicting the quality of Vinho Verde wine (both Red and White) from Portugal's northwest region. The project encompasses data sourcing, transformation, exploratory data analysis, model training, and visualization.
+World Health Organization (WHO) Director has determined that the upsurge of mpox in the Democratic Republic of the Congo (DRC) and a growing number of countries in Africa constitutes a public health emergency of international concern. Our Team embarked upon the goal of using image classication to identify early on the MPox virus. 
 
 ## Table of Contents
 
@@ -16,19 +16,19 @@ The Wine Quality Predictor is a machine learning project aimed at predicting the
 6. [Model Training](#model-training)
 7. [Evaluation](#evaluation)
 8. [Results](#results)
-9. [License](#license)
-10. [Team](#team)
-11. [References](#references)
+9. [Team](#team)
+10. [References](#references)
 
 ## Introduction
 
-This project explored using machine learning to predict the quality of Vinho Verde wine from Portugal's northwest region. It involved project ideation, data sourcing, and transformation using Excel and Python to create a usable dataframe and CSV file. Power BI was used to gather insights on the dataset and assess the feasibility of our hypothesis, followed by formatting and exploratory data analysis in Python.
+This project utilized a dataset consististing of four image classes: Monkeypox, Chickenpox, Measles, and other. The project encompasses ML techniques such as Pytorch Lightning CNN, TensorFlow, and scikit-learn
+that were used for data sourcing, transformation, exploratory data analysis and model training.
 
 ## Features
 
-- Predicts wine quality based on chemical properties
-- Supports both red and white wine data
-- Provides insights into which factors most influence wine quality
+- Identify with a high accuracy rate the MPox virus via images
+- TBD
+- TBD
 
 ## Data
 
@@ -120,14 +120,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Elizabeth Arias
 - Dawn Kim
-- Christian Leon
-- Nathan Anecone
-- Ian Cody
-- Kyle Prudente
-
+- Chearine Pringle
+- Nico Contreras
+- Eric Alicea
+- Daniel Gallardo
+  
 ## References
 
-- Kaggle.com: P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+- Kaggle.com: https://www.kaggle.com/datasets/sujaykapadnis/monkeypox-skin-images-dataset-msid/data
   
 ## Class presentation
-- https://drive.google.com/file/d/17tNT4IGeTo3_VgVpw_rZlbOLYMmkZUzm/view?usp=drive_link
+- link to Powerpoint on Googlecolab
