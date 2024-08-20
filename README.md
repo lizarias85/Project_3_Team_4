@@ -12,11 +12,10 @@ World Health Organization (WHO) Director has determined that the upsurge of mpox
 2. [Features](#features)
 3. [Data](#data)
 4. [Installation](#installation)
-5. [Model Training](#model-training)
-6. [Evaluation](#evaluation)
-7. [Results](#results)
-8. [Team](#team)
-9. [References](#references)
+5. [Methodology](#methodology)
+6. [Results](#results)
+7. [Team](#team)
+8. [References](#references)
 
 ## Introduction
 
