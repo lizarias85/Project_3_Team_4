@@ -53,10 +53,18 @@ pip install os
 pip install requests
 pip install pandas
 pip install numpy
+pip install cv2
+pip install seaborn
+pip install pil
 ```
 
 ## Methodology 
 
+1. ***Exploratory Data Analysis***  
+* Took images and vectorized into
+* 
+*  
+  
 2. ***Data Preparation***  
 * Created a dataframe with image path list and classes as labels  
 * Split the dataset into training and test sets
