@@ -1,6 +1,6 @@
 # The MonkeyPox Epidemic presented by the:
+![image](https://github.com/user-attachments/assets/ce382959-92b4-4fa9-a641-f2fda0a4916a)
 
-https://drive.google.com/drive/u/0/folders/1TUwtzwz79jIJPDmcGlHkNBV4qS-mamWc
 
 ## Overview
 
