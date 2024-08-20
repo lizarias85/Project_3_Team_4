@@ -48,7 +48,11 @@ To run this project locally, you'll need Python and additional libraries install
 ```bash
 pip install scikit-learn
 pip install matplotlib
-Tensorflow
+pip install Tensorflow
+pip install os
+pip install requests
+pip install pandas
+pip install numpy
 ```
 
 ## Methodology 
