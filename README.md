@@ -55,39 +55,37 @@ Tensorflow
 
 2. ***Data Preparation***  
 * Synthetic data generation to correct extreme imbalances between the minority class (n=5) and majority class (n=2836).  
-* Binning to correct for extreme data imbalances (merging the minority classes at the ends of the distribution)
-* Noise elimination: Uses IsolationForest model to detect and remove outliers. 
-* Feature selection: Uses Lasso Regression, mean squared error calculation, and variance inflation factor to detect the most what features don’t contribute to or distort the model. 
+*
 
 3. ***Model Selection***
 * Hyper-parameter tuning 
-* RandomizedSearchCV to traverse a randomized subspace 
-* Manual experimentation and trial and error to determine that RandomForestClassifier is the most reliably performing algorithm 
+
 
 4. ***Model Validation***
 * Cross Validation to confirm consistency of results across several randomized folds
-* A/B testing against raw data to contrast with our changes 
+*
 
 5.  ***Model Interpretation***
 * Feature Importance comparison and analysis  
 
 ## Results
 
-The project involved extensive exploratory data analysis, including descriptive statistics, correlation heatmaps, box plots, histograms, violin plots, and p-value analysis (which did not provide significant results). Key steps included:
-
-- Analyzing the 'Quality' variable for correlation and removing highly correlated variables (free sulfur dioxide and density).
-- Reviewing the distribution of all variables and removing outliers for model training.
+TBD
 
 ### Image of Mpox
+![image](https://github.com/user-attachments/assets/fd9663eb-bb25-4bf4-a0b1-a3126c096fb8)
 
 
 ### Image of ChickenPox
+![image](https://github.com/user-attachments/assets/f8b362a4-9421-44e3-ab6e-e32fba740845)
 
 
 ### Image of Measles
+![image](https://github.com/user-attachments/assets/8ff36fc1-9eed-4188-9b48-fde9f1cffea4)
 
 
 ### Image Random
+![image](https://github.com/user-attachments/assets/422843aa-fa4c-4537-85f7-ec18b17d2623)
 
 
 The key takeaway blah blah blah
