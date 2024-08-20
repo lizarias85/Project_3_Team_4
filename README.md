@@ -12,12 +12,11 @@ World Health Organization (WHO) Director has determined that the upsurge of mpox
 2. [Features](#features)
 3. [Data](#data)
 4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Model Training](#model-training)
-7. [Evaluation](#evaluation)
-8. [Results](#results)
-9. [Team](#team)
-10. [References](#references)
+5. [Model Training](#model-training)
+6. [Evaluation](#evaluation)
+7. [Results](#results)
+8. [Team](#team)
+9. [References](#references)
 
 ## Introduction
 
@@ -32,40 +31,24 @@ that were used for data sourcing, transformation, exploratory data analysis and 
 
 ## Data
 
-The dataset used in this project was sourced from Kaggle and includes two CSV files: `wine_data_white.csv` and `wine_data_red.csv`. These were combined into a single file, `wine_data_both.csv`.
+The dataset used in this project was sourced from Kaggle and includes 770 images.
 
-The dataset contains the following columns:
+The dataset was divided into 4 folders:
 
-- `Index`
-- `fixed acidity`
-- `volatile acidity`
-- `citric acid`
-- `residual sugar`
-- `chlorides`
-- `free sulfur dioxide`
-- `total sulfur dioxide`
-- `density`
-- `pH`
-- `sulphates`
-- `alcohol`
-- `quality`
-- `Wine` (Type of wine: Red or White)
+- Monkeypox
+- Chickenpox
+- Measles
+- Other
+
 
 ## Installation
 
 To run this project locally, you'll need Python and additional libraries installed. Use the following command to install the required libraries:
 
 ```bash
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib statsmodels
-```
-
-## Usage
-
-1. **Clone the repository:**
-
-```bash
-git clone git@github.com:N8sGit/group_project_2.git
-cd group_project_2
+pip install scikit-learn
+pip install matplotlib
+Tensorflow
 ```
 
 ## Methodology 
@@ -95,26 +78,19 @@ The project involved extensive exploratory data analysis, including descriptive 
 - Analyzing the 'Quality' variable for correlation and removing highly correlated variables (free sulfur dioxide and density).
 - Reviewing the distribution of all variables and removing outliers for model training.
 
-### Describe Chart
-![Describe chart](images/describe_chart.png)
+### Image of Mpox
 
-### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
 
-### Box Plot
-![Box Plot](images/box_plot.png)
+### Image of ChickenPox
 
-### Histogram Charts
-![Histogram Chart](images/histogram_chart.png)
 
-### Violinplots
-![Violinplots](images/violion_plot.png)
+### Image of Measles
 
-The key takeaway is that alcohol is the best predictor for high-quality wine using a Random Forest Model. Detailed results and visualizations can be found in the `results/` directory.
 
-## License
+### Image Random
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+The key takeaway blah blah blah
 
 ## Team
 
