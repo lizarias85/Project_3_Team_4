@@ -16,6 +16,7 @@ World Health Organization (WHO) Director has determined that the upsurge of mpox
 6. [Results](#results)
 7. [Team](#team)
 8. [References](#references)
+9. [Class Presentation](#Class Presentation)
 
 ## Introduction
 
@@ -117,5 +118,5 @@ The key takeaway blah blah blah
 
 - Kaggle.com: https://www.kaggle.com/datasets/sujaykapadnis/monkeypox-skin-images-dataset-msid/data
   
-## Class presentation
+## Class Presentation
 - link to Powerpoint on Googlecolab
