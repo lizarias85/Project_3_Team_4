@@ -16,11 +16,11 @@ World Health Organization (WHO) Director has determined that the upsurge of mpox
 6. [Results](#results)
 7. [Team](#team)
 8. [References](#references)
-9. [Class Presentation](#Class Presentation)
+9. [Class Presentation](#class)
 
 ## Introduction
 
-This project utilized a dataset consististing of four image classes: Monkeypox, Chickenpox, Measles, and other. The project encompasses ML techniques such as Pytorch Lightning CNN, TensorFlow, and scikit-learn
+This project utilized a dataset consisting of four image classes: Monkeypox, Chickenpox, Measles, and other. The project encompasses ML techniques such as Pytorch Lightning CNN, TensorFlow, and scikit-learn
 that were used for data sourcing, transformation, exploratory data analysis and model training.
 
 ## Features
