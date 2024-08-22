@@ -56,6 +56,7 @@ pip install numpy
 pip install cv2
 pip install seaborn
 pip install pil
+pip install gradio
 ```
 
 ## Methodology 
