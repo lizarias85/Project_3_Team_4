@@ -4,7 +4,7 @@
 
 ## Overview
 
-World Health Organization (WHO) Director has determined that the upsurge of mpox in the Democratic Republic of the Congo (DRC) and a growing number of countries in Africa constitutes a public health emergency of international concern. Our Team embarked upon the goal of using image classication to identify early on the MPox virus. 
+World Health Organization (WHO) Director has determined that the upsurge of mpox in the Democratic Republic of the Congo (DRC) and a growing number of countries in Africa constitutes a public health emergency of international concern. Our Team embarked upon the goal of using image classification to identify early on the MPox virus. 
 
 ## Table of Contents
 
@@ -63,14 +63,14 @@ pip install gradio
 ## Methodology 
 
 1. ***Exploratory Data Analysis***  
-* Took images and vectorized into
-* 
+* Took images classifcations and created an RGB value 
+* Calculated the averages of the RGB to display the distribution
 *  
   
 2. ***Data Preparation***  
 * Created a dataframe with image path list and classes as labels  
 * Split the dataset into training and test sets
-* Used a label encoder to to convert the labels to numbers
+* Used a label encoder to convert the labels to numbers
 
 3. ***Model Selection***
 * Convolutional neural network (CNN) due to its ability to recognize patterns in images
