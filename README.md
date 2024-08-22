@@ -47,6 +47,7 @@ To run this project locally, you'll need Python and additional libraries install
 
 ```bash
 pip install scikit-learn
+pip install keras
 pip install matplotlib
 pip install Tensorflow
 pip install os
