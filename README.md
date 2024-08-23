@@ -77,12 +77,12 @@ pip install gradio
 
 
 4. ***Model Validation***
-* Cross Validation to confirm consistency of results across several randomized folds
-*
+* Trained and tested the model with an accuracy score of 93% for trained data and 53% for testing data
 
-5.  ***Model Interpretation***
-* Feature Importance comparison and analysis
-* <img width="624" alt="image" src="https://github.com/user-attachments/assets/c16b5e96-6458-4b3a-b4eb-870a11c37a72">
+
+5.  ***Model Implementation***
+* Gradio User Interface link
+* User is able to upload an image and the model will provide a classification of Chicken Poz, Mpox, Measles or Normal
 
 
 ## Results
