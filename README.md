@@ -122,6 +122,7 @@ pip install gradio
 ## References
 
 - Kaggle.com: https://www.kaggle.com/datasets/sujaykapadnis/monkeypox-skin-images-dataset-msid/data
+- ChatGPT
   
 ## Class Presentation
 - [link to Powerpoint on Googlecolab](https://docs.google.com/presentation/d/1W_JQiCiDouNFOa--RUsmTu8Y6nX2NVHU/edit#slide=id.p1)
