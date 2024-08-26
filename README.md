@@ -25,9 +25,10 @@ that were used for data sourcing, transformation, exploratory data analysis and 
 
 ## Features
 
-- Identify with a high accuracy rate the MPox virus via images.
+- Identify with a high accuracy rate the MPox virus via images through CNN.
 - Train and test the model through classification using tensorflow.
-- Gradio Interface to test the image classification model
+- Standardized images and labels through scikit-learn.
+- Gradio Interface to test the image classification model.
 
 ## Data
 
@@ -35,11 +36,23 @@ The dataset used in this project was sourced from Kaggle and includes 770 images
 
 The dataset was divided into 4 folders/classifications:
 
-- Monkeypox
-- Chickenpox
-- Measles
-- Other
+- Chickenpox [0]
+- Measles [1]
+- MPox [2]
+- Normal [3]
 
+### Image of ChickenPox
+![image](https://github.com/user-attachments/assets/f8b362a4-9421-44e3-ab6e-e32fba740845)
+
+
+### Image of Measles
+![image](https://github.com/user-attachments/assets/8ff36fc1-9eed-4188-9b48-fde9f1cffea4)
+
+### Image of Mpox
+![image](https://github.com/user-attachments/assets/fd9663eb-bb25-4bf4-a0b1-a3126c096fb8)
+
+### Image Normal
+![image](https://github.com/user-attachments/assets/422843aa-fa4c-4537-85f7-ec18b17d2623)
 
 ## Installation
 
@@ -64,49 +77,36 @@ pip install gradio
 
 1. ***Exploratory Data Analysis***  
 * Took images classifcations and created an RGB value 
-* Calculated the averages of the RGB to display the distribution
-*  ![image](https://github.com/user-attachments/assets/6d10fa7b-6096-43e5-b5ec-75695300bb10)
+* Calculated the averages of the RGB to display the distribution of the various image classifications.
+ ![image](https://github.com/user-attachments/assets/6d10fa7b-6096-43e5-b5ec-75695300bb10)
 
   
 2. ***Data Preparation***  
-* Created a dataframe with image path list and classes as labels  
+* Created a dataframe from image path list and classes as labels  
 * Split the dataset into training and test sets
 * Used a label encoder to convert the labels to numbers
+* Created a function to convert images into RGB values
 
-3. ***Model Selection***
-* Convolutional neural network (CNN) due to its ability to recognize patterns in images
+3. ***Model Development***
+* Utilized Convolutional neural network (CNN) due to its ability to recognize patterns in images.
+* Converted images into a pickle file format that can be easily stored and transmitted
+* Split the data into training and test sets
+* Converted the series of images into a Numpy array in order to feed the datasent into the model for training and inference.
 
 
 4. ***Model Validation***
 * Trained and tested the model with an accuracy score of 93% for trained data and 53% for testing data
+* Plotted training & validation accuracy and loss
+![image](https://github.com/user-attachments/assets/f67e7f8a-9a93-4b6b-8551-317f07d2bd4a)
 
 
 5.  ***Model Implementation***
-* Gradio User Interface link
-* User is able to upload an image and the model will provide a classification of Chicken Poz, Mpox, Measles or Normal
+* Gradio User Interface link https://6ef55b8b3176e2a3a7.gradio.live
+* User is able to upload an image and the model will provide a classification of Chicken Pox, Mpox, Measles or Normal
 
-
-## Results
-
-TBD
-
-### Image of Mpox
-![image](https://github.com/user-attachments/assets/fd9663eb-bb25-4bf4-a0b1-a3126c096fb8)
-
-
-### Image of ChickenPox
-![image](https://github.com/user-attachments/assets/f8b362a4-9421-44e3-ab6e-e32fba740845)
-
-
-### Image of Measles
-![image](https://github.com/user-attachments/assets/8ff36fc1-9eed-4188-9b48-fde9f1cffea4)
-
-
-### Image Normal
-![image](https://github.com/user-attachments/assets/422843aa-fa4c-4537-85f7-ec18b17d2623)
-
-
-The key takeaway blah blah blah
+6.  ***Key Takeaways***
+* Testing alternative Models for better accuracy results
+* Images can be used to identify diferrent types of Viral skin infections, however more training data is needed especially with darker skin tones as the model is biased due to the sample set.
 
 ## Team
 
@@ -122,4 +122,4 @@ The key takeaway blah blah blah
 - Kaggle.com: https://www.kaggle.com/datasets/sujaykapadnis/monkeypox-skin-images-dataset-msid/data
   
 ## Class Presentation
-- link to Powerpoint on Googlecolab
+- [link to Powerpoint on Googlecolab](https://docs.google.com/presentation/d/1W_JQiCiDouNFOa--RUsmTu8Y6nX2NVHU/edit#slide=id.p1)
