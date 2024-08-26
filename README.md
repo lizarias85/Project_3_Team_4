@@ -54,7 +54,7 @@ pip install os
 pip install requests
 pip install pandas
 pip install numpy
-pip install cv2
+pip install opencv-python
 pip install seaborn
 pip install pil
 pip install gradio
