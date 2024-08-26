@@ -76,7 +76,7 @@ pip install gradio
 ## Methodology 
 
 1. ***Exploratory Data Analysis***  
-* Took images classifcations and created an RGB value 
+* Took images classifcations and created an RGB value and used cv2 library not learned in class
 * Calculated the averages of the RGB to display the distribution of the various image classifications.
  ![image](https://github.com/user-attachments/assets/6d10fa7b-6096-43e5-b5ec-75695300bb10)
 
