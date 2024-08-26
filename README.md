@@ -27,13 +27,13 @@ that were used for data sourcing, transformation, exploratory data analysis and 
 
 - Identify with a high accuracy rate the MPox virus via images.
 - Train and test the model through classification using tensorflow.
-- TBD
+- Gradio Interface to test the image classification model
 
 ## Data
 
 The dataset used in this project was sourced from Kaggle and includes 770 images.
 
-The dataset was divided into 4 folders:
+The dataset was divided into 4 folders/classifications:
 
 - Monkeypox
 - Chickenpox
