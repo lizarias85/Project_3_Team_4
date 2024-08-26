@@ -20,13 +20,13 @@ World Health Organization (WHO) Director has determined that the upsurge of mpox
 
 ## Introduction
 
-This project utilized a dataset consisting of four image classes: Monkeypox, Chickenpox, Measles, and other. The project encompasses ML techniques such as Pytorch Lightning CNN, TensorFlow, and scikit-learn
+This project utilized a dataset consisting of four image classes: Monkeypox, Chickenpox, Measles, and other. The project encompasses ML techniques such as Convolutional Neural Network (CNN), TensorFlow, and scikit-learn
 that were used for data sourcing, transformation, exploratory data analysis and model training.
 
 ## Features
 
-- Identify with a high accuracy rate the MPox virus via images
-- TBD
+- Identify with a high accuracy rate the MPox virus via images.
+- Train and test the model through classification using tensorflow.
 - TBD
 
 ## Data
@@ -65,7 +65,8 @@ pip install gradio
 1. ***Exploratory Data Analysis***  
 * Took images classifcations and created an RGB value 
 * Calculated the averages of the RGB to display the distribution
-*  
+*  ![image](https://github.com/user-attachments/assets/6d10fa7b-6096-43e5-b5ec-75695300bb10)
+
   
 2. ***Data Preparation***  
 * Created a dataframe with image path list and classes as labels  
@@ -101,7 +102,7 @@ TBD
 ![image](https://github.com/user-attachments/assets/8ff36fc1-9eed-4188-9b48-fde9f1cffea4)
 
 
-### Image Random
+### Image Normal
 ![image](https://github.com/user-attachments/assets/422843aa-fa4c-4537-85f7-ec18b17d2623)
 
 
