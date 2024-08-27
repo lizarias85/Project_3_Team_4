@@ -101,7 +101,7 @@ pip install gradio
 
 
 5.  ***Model Implementation***
-* Gradio User Interface link https://6ef55b8b3176e2a3a7.gradio.live
+* Gradio User Interface link [https://6ef55b8b3176e2a3a7.gradio.live](https://github.com/lizarias85/Project_3_Team_4)
 * User is able to upload an image and the model will provide a classification of Chicken Pox, Mpox, Measles or Normal
   ![image](https://github.com/user-attachments/assets/8bf34850-605a-45ac-92ff-1f6bfbdd6856)
 
