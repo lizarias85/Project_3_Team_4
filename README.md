@@ -125,4 +125,4 @@ pip install gradio
 - ChatGPT
   
 ## Class Presentation
-- [link to Powerpoint on Googlecolab](https://docs.google.com/presentation/d/1W_JQiCiDouNFOa--RUsmTu8Y6nX2NVHU/edit#slide=id.p1)
+- [link to Powerpoint on Googlecolab]([https://docs.google.com/presentation/d/1W_JQiCiDouNFOa--RUsmTu8Y6nX2NVHU/edit#slide=id.p1)](https://drive.google.com/drive/u/0/folders/15XO9eKQDCpe-El3D-y4i11K3cU2lTahI)](https://drive.google.com/drive/u/0/folders/15XO9eKQDCpe-El3D-y4i11K3cU2lTahI)
